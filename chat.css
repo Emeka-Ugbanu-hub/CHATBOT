@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(to right,rgb(52, 184, 224),#d85ba8);
+}
+#chat{
+    position: fixed;
+    bottom: 1em;
+    left: 10%;
+    width: 70%;
+    outline: none;
+    height: 5vh;
+    border: 5px solid #d85ba8;
+}
+#send{
+    width:5%;
+    height:7vh;
+    position: fixed;
+    bottom: 1em;
+    right:14.3%;
+    border: 5px solid #d85ba8;
+    outline: none;
+}
+.human h1{
+    color:#d85ba8;
+    margin-left: 5em;
+    font-family: cursive;
+    font-weight: 900;
+}
+#img{
+    margin-top: -0.4em;
+    width: 84%;
+}
+#robot__two{
+    width: 12%;
+    margin-left: 18em;
+}
+
+.all__content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.robot__text{
+    list-style-type: none;
+    color: #fff;
+    font-family: cursive;
+   max-width: 50%;
+    border-radius: 1em; 
+    padding:1%;
+   padding-left:10px;
+    overflow-wrap: break-word;
+    background: rgb(52, 184, 224);
+}
